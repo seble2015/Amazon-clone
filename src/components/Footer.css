@@ -1,0 +1,122 @@
+.footer {
+  align-items: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #232f3e;
+  padding: 50px 0;
+}
+
+.footer__option {
+  display: flex;
+  flex-direction: column;
+  margin: 0 30px;
+}
+.footer__logo{
+   width: 100px;
+  object-fit: contain;
+  margin: 0 20px;
+  margin-top: 18px;
+  margin-right: 10px;
+}
+
+.footer__option a {
+  text-decoration: none;
+  color: #bbb6b6;
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.footer-links {
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+ margin-right: 10px;
+  margin-top: 120px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #958f8f;
+  margin: 5px 10px;
+  font-size: 14px;
+}
+.titel {
+  color: #ffffff;
+  font-size: medium;
+}
+
+.footer_logos_container{
+/* margin: 20px 0; */
+border-top: 1px solid #3a4553;
+margin-top: 40px;
+}
+.footer_logos_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    /* width: 100px; */
+    margin: 20px auto;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #fff;
+}
+.ftr_wrapper_right{
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    width: 450px;
+    padding: 10px;
+    font-size:14px;
+    /* margin: 0 10px; */
+}
+.footer__logo>img {
+    width: 100px;
+    object-fit: contain;
+    margin: 18px 20px 0;
+}
+
+
+.footer__credit {
+    color: #ddd;
+    padding: 120px 0 30px;
+  
+}
+.footer__credit a {
+    text-decoration: none;
+    color: #c60909;
+    opacity: 0.8;
+    margin-right: 0 auto
+    
+}
+.footer__credit a:hover {
+    text-decoration: underline;
+    color: #ddd;
+    opacity: 1;
+
+}
+.footer h5 {
+	color: white;
+	opacity: 0.5;
+}
+.footer h5:hover {
+	opacity: 1;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__option {
+    margin: 10px 0 0 20px;
+  }
+  .footer {
+  align-items: flex-start;
+  display: block;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #232f3e;
+ 
+}
+.footer__credit {
+  margin-left: 20px;
+  padding: 20px;
+}
+}
